@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 184.09 s <<< FAILURE! - in TestSuite
+com.Satnam_Customer_scripts.createCustomer_TC001.testcreateCustomer_TC001  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.NullPointerException
+
+com.Satnam_Project_scripts.createProject_TC002.testCreateProject_TC002  Time elapsed: 33.617 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: pp24mmm51
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown
+	at com.Satnam_Project_scripts.createProject_TC002.testCreateProject_TC002(createProject_TC002.java:29)
+
+com.Satnam_BillingType_scripts.createBilling_TC003.testCreateBilling_TC003  Time elapsed: 33.75 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .successmsg
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200525134724, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 1256, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e84d1819-a185-47cd-89c2-b0777777c9a5
+*** Element info: {Using=class name, value=successmsg}
+	at com.Satnam_BillingType_scripts.createBilling_TC003.testCreateBilling_TC003(createBilling_TC003.java:29)
+
+com.Satnam_Tasks_scripts.createTasks_TC004.testCreateTasks_TC004  Time elapsed: 31.863 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: pp24mmm51
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-32VMDLN', ip: '192.168.129.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown
+	at com.Satnam_Tasks_scripts.createTasks_TC004.testCreateTasks_TC004(createTasks_TC004.java:19)
+
